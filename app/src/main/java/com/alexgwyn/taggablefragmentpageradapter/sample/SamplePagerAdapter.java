@@ -32,7 +32,7 @@ public class SamplePagerAdapter extends TaggableFragmentPagerAdapter {
     }
 
     public void add() {
-        SampleFragment fragment = SampleFragment.newInstance("https://unsplash.it/200/300");
+        SampleFragment fragment = SampleFragment.newInstance("https://unsplash.it/1000/1000");
         fragments.add(fragment);
         notifyDataSetChanged();
     }
